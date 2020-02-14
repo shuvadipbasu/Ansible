@@ -1,0 +1,9 @@
+-
+  name: play1
+  hosts: localhost
+  tasks:
+        - name: "Run date command"
+          command: date
+
+        - name: "Run ls command"
+          command: ls -lart
